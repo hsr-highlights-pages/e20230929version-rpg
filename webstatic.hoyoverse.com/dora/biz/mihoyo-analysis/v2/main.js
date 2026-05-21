@@ -102,7 +102,7 @@
         var r, i;
         /*!
  * JavaScript Cookie v2.2.1
- * https://github.com/js-cookie/js-cookie
+ * ./github.com/js-cookie/js-cookie
  *
  * Copyright 2006, 2015 Klaus Hartl & Fagner Brack
  * Released under the MIT license
@@ -1343,7 +1343,7 @@
                         if (this[r(0, 0, 1636, 1476)]) {
                             var s = /^(https?:\/\/.+?)(\/|$)/i
                               , f = u[r(0, 0, 1371, 1504)](s);
-                            f && f[1] && (a = u[n(-483, -412)](f[1], s[r(0, 0, 1468, 1534)](this[n(-539, -371)]) ? this[r(0, 0, 1324, 1476)] : t.ptgoT("https://", this[n(-534, -371)])))
+                            f && f[1] && (a = u[n(-483, -412)](f[1], s[r(0, 0, 1468, 1534)](this[n(-539, -371)]) ? this[r(0, 0, 1324, 1476)] : t.ptgoT("./", this[n(-534, -371)])))
                         }
                         a = this["checkAndAd" + n(-343, -482)](a);
                         var c = JSON.stringify(o)
@@ -1837,7 +1837,7 @@
         /*!
  * Determine if an object is a Buffer
  *
- * @author   Feross Aboukhadijeh <https://feross.org>
+ * @author   Feross Aboukhadijeh <./feross.org>
  * @license  MIT
  */
         t.exports = function(t) {
@@ -3109,10 +3109,10 @@
           , i = function() {
             var t = (window.location.hostname.match(/^.*?.([^.]*?.com)$/) || [])[1] || "mihoyo.com";
             return {
-                development: "https://devapi-takumi." + t + "/common/badge/v1",
-                test: "https://devapi-takumi." + t + "/common/badge/v1",
-                prerelease: "https://preapi-takumi." + t + "/common/badge/v1",
-                production: "https://api-takumi." + t + "/common/badge/v1"
+                development: "./devapi-takumi." + t + "/common/badge/v1",
+                test: "./devapi-takumi." + t + "/common/badge/v1",
+                prerelease: "./preapi-takumi." + t + "/common/badge/v1",
+                production: "./api-takumi." + t + "/common/badge/v1"
             }
         }
           , o = n.getParamByName = function(t) {
@@ -3180,8 +3180,8 @@
                 window.MIHOYO_ANALYSIS_LOGINEFFECT = !0,
                 e(14);
                 var Y = {
-                    test: "https://devapi-takumi.mihoyo.com/",
-                    production: "https://api-takumi.mihoyo.com/"
+                    test: "./devapi-takumi.mihoyo.com/",
+                    production: "./api-takumi.mihoyo.com/"
                 }
                   , W = i()
                   , K = function() {

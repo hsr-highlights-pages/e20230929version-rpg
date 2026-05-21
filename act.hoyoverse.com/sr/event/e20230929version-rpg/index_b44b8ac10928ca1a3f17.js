@@ -1282,7 +1282,7 @@
         }
         var Y = null
           , J = r.n(W)().create({
-            baseURL: "https://sg-public-api.hoyoverse.com",
+            baseURL: "./sg-public-api.hoyoverse.com",
             withCredentials: !0
         });
         J.interceptors.request.use((function(e) {
@@ -2589,7 +2589,7 @@
                             return t = n.length > 0 && void 0 !== n[0] ? n[0] : {},
                             e.next = 3,
                             oe("/flow/run/".concat(S, "/rpg_version_page_out/3"), _e(_e({}, t), {}, {
-                                baseURL: "https://sg-public-api.hoyoverse.com/event/merlin_v2/v2"
+                                baseURL: "./sg-public-api.hoyoverse.com/event/merlin_v2/v2"
                             }), "get");
                         case 3:
                             return r = e.sent,
@@ -3880,7 +3880,7 @@
                                     return e.abrupt("return", "");
                                 case 2:
                                     return e.next = 4,
-                                    oe("".concat("https://sg-public-api.hoyoverse.com", "/common/badge/v1/login/authKey"), {
+                                    oe("".concat("./sg-public-api.hoyoverse.com", "/common/badge/v1/login/authKey"), {
                                         params: vt(vt({}, o.QS), {}, {
                                             authkey: o.QS.authkey,
                                             lang: this.$getLang(),
